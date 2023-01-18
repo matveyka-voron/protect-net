@@ -9,6 +9,15 @@ p {
     font-family: Arial;
 }
 
+.ima {
+    width: 40%;
+    float: right;
+    margin-right: 90px;
+    margin-left: 20px;
+    margin-top: 15px;
+    border-radius: 20px;
+}
+
 .zag {
     -webkit-text-stroke:1.1px #1a1a1a;
     font-size: 40px;
@@ -232,5 +241,14 @@ p {
 
     .ne {
         display: none;
+    }
+
+    .ima {
+        width: 95%;
+        float: none;
+        margin-right: none;
+        margin-left: none;
+        margin-top: none;
+        border-radius: none;
     }
 }
